@@ -1,0 +1,42 @@
+body {
+    background-color: #ffffff;
+	margin: 20px;
+    padding: 20px;
+}
+.Background {
+	width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 125px;
+    left: 550px;
+    border-radius: 175px;
+    background: linear-gradient(45deg, #f0e91d, #db3d35, #7413a1);
+    border: 36px solid #ffffff;
+    z-index: 1;
+}
+.Middleground {
+    width: 500px;
+    height: 500px;
+    top: 10%;
+    left: 10%;
+    border-radius: 125px;
+    z-index: 2;
+}
+.Foreground1 {
+    width: 300px;
+	height: 300px;
+    top: 14%;
+    left: 14%;
+    border-radius: 300px;
+    z-index: 3;
+}
+.Foreground2 {
+    width: 50px;
+    height: 50px;
+    top: 8%;
+    left: 80%;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 0px;
+    z-index: 3;
+}
